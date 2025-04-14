@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab4Mob</string>
+    <string name="area">Area: %1$s</string>
+    <string name="area2">Зона: %1$s</string>
+    <string name="category_in_mealAdapter">Категоря: %1$s</string>
+    <string name="MainActivError_main">Ошибка: %1$s</string>
+    <string name="LoadingInMain">Грузим...</string>
+    <string name="Detail_loading_text">Грузим...</string>
+    <string name="Detail_fail_text">Ошиблись: %1$s</string>
+</resources>
