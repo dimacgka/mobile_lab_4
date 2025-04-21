@@ -1,4 +1,4 @@
-package com.example.lab4mob
+package com.example.mobil4lab
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar

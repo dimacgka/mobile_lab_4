@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/recipeListFragment"
+        android:icon="@drawable/menu_icon"
+        android:title="Recipes" />
+    <item
+        android:id="@+id/recipeDetailFragment"
+        android:icon="@drawable/burger_icon"
+        android:title="Details" />
+    <item
+        android:id="@+id/cookingStepsFragment"
+        android:icon="@drawable/kastulka_icon"
+        android:title="Steps" />
+</menu>

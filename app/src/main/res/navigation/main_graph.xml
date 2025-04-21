@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/recipeListFragment">
+
+    <fragment
+        android:id="@+id/recipeListFragment"
+        android:name="com.example.mobil4lab.RecipeListFragment"
+        android:label="Recipes"
+        tools:layout="@layout/fragment_recipe_list">
+        <action
+            android:id="@+id/action_to_recipeDetail"
+            app:destination="@id/recipeDetailFragment">
+            <argument
+                android:name="recipeId"
+                app:argType="string" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/recipeDetailFragment"
+        android:name="com.example.mobil4lab.RecipeDetailFragment"
+        android:label="Recipe Details"
+        tools:layout="@layout/fragment_recipe_detail">
+        <argument
+            android:name="recipeId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_to_cookingSteps"
+            app:destination="@id/cookingStepsFragment">
+            <argument
+                android:name="recipeId"
+                app:argType="string" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/cookingStepsFragment"
+        android:name="com.example.mobil4lab.CookingStepsFragment"
+        android:label="Cooking Steps"
+        tools:layout="@layout/fragment_cooking_steps">
+        <argument
+            android:name="recipeId"
+            app:argType="string" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_to_recipeDetail"
+        app:destination="@id/recipeDetailFragment">
+        <argument
+            android:name="recipeId"
+            app:argType="string" />
+    </action>
+    <action
+        android:id="@+id/action_global_to_cookingSteps"
+        app:destination="@id/cookingStepsFragment">
+        <argument
+            android:name="recipeId"
+            app:argType="string" />
+    </action>
+</navigation>

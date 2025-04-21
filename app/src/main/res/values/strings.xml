@@ -1,10 +1,17 @@
 <resources>
-    <string name="app_name">Lab4Mob</string>
-    <string name="area">Area: %1$s</string>
-    <string name="area2">Зона: %1$s</string>
-    <string name="category_in_mealAdapter">Категоря: %1$s</string>
-    <string name="MainActivError_main">Ошибка: %1$s</string>
-    <string name="LoadingInMain">Грузим...</string>
-    <string name="Detail_loading_text">Грузим...</string>
-    <string name="Detail_fail_text">Ошиблись: %1$s</string>
+    <string name="app_name">Mobil4Lab</string>
+    <string name="error_loading_details_Recipe_fr">Ошипка загрузки деталей</string>
+    <string name="area_detail_fr">Area: %1$s</string>
+    <string name="dialog_reciept_det_fr">Добавить в корзину</string>
+    <string name="dialog_detail_fr_yes">Да</string>
+    <string name="detail_dialog_fr_no">Нет</string>
+    <string name="detail_dialog_fr_no_ingr">Нет доступных ингридиентов</string>
+    <string name="detail_dialog_fr_no_instructions">нету рецепта\n</string>
+    <string name="detail_dialog_fr_unknown">ХЗ</string>
+    <string name="Meal_adapter_area">Зона: %1$s</string>
+    <string name="meal_adaptr_categor">Категория: %1$s</string>
+    <string name="meal_adapter_no_category">Не знаю</string>
+    <string name="meal_adapter_no_area">ХЗ</string>
+    <string name="to_steps_button_detail_frag">К шагам</string>
+    <string name="add_to_shopping_list_button_detail_frag">Добавить в корзину</string>
 </resources>
